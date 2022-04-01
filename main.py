@@ -12,7 +12,7 @@ def muestra_empresas():
 
 @app.route("/firms-falabella-mallplaza")
 def firms_falabella_mallplaza():
-    return render_template("firms-falabela-mallplaza.html")
+    return render_template("firms-falabella-mallplaza.html")
 
 @app.route("/firms-txd")
 def firms_txd():
